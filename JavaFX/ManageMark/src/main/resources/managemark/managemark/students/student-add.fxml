@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+    <HBox>
+        <Label text="Code: "/>
+        <TextField fx:id="addCodeField"/>
+    </HBox>
+    <HBox>
+        <Label text="Name: "/>
+        <TextField fx:id="addNameField"/>
+    </HBox>
+    <HBox>
+        <Label text="Email: "/>
+        <TextField fx:id="addEmailField"/>
+    </HBox>
+    <HBox>
+        <Label text="Phone: "/>
+        <TextField fx:id="addPhoneField"/>
+    </HBox>
+    <HBox>
+        <Label text="Major: "/>
+        <ComboBox fx:id="addMajorField" promptText="Select a major">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </HBox>
+    <HBox>
+        <Label text="School year: "/>
+        <ComboBox fx:id="addSchoolYearField" promptText="Select a school year">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </HBox>
+    <HBox>
+        <Label text="Class name: "/>
+        <ComboBox fx:id="addClassField" promptText="Select a Class">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </HBox>
+    <Button fx:id="createButton" text="Save"/>
+</VBox>

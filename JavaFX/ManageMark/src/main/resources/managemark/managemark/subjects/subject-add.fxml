@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+    <HBox>
+        <Label text="Name: "/>
+        <TextField fx:id="addNameField"/>
+    </HBox>
+    <HBox>
+        <Label text="Duration: "/>
+        <TextField fx:id="addDurationField"/>
+    </HBox>
+    <Button fx:id="createButton" text="Save"/>
+</VBox>

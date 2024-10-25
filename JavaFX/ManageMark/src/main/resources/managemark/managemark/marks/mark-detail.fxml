@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox spacing="10.0" xmlns:fx="http://javafx.com/fxml" prefWidth="700">
+    <!-- Padding của form -->
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+    <TableView fx:id="markTable">
+        <columns>
+            <TableColumn fx:id="studentIdColumn" text="ID"/>
+            <TableColumn fx:id="studentNameColumn" text="Student Name"/>
+            <TableColumn fx:id="studentCodeColumn" text="Student Code"/>
+            <TableColumn fx:id="studentMarkColumn" text="Mark"/>
+<!--            <TableColumn fx:id="subjectDurationColumn" text="Duration"/>-->
+        </columns>
+    </TableView>
+    <Button fx:id="saveButton" text="Search"/>
+</VBox>

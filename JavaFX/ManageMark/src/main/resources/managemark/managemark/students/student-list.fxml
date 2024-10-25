@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="managemark.managemark.Controller.StudentController">
+    <!-- Padding của form -->
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+    <Button text="Add student" onAction="#showDialogCreateStudent"/>
+    <TableView fx:id="studentTable">
+        <columns>
+            <TableColumn fx:id="studentIdColumn" text="ID"/>
+            <TableColumn fx:id="studentCodeColumn" text="Code"/>
+            <TableColumn fx:id="studentNameColumn" text="Name"/>
+            <TableColumn fx:id="studentEmailColumn" text="Email"/>
+            <TableColumn fx:id="studentPhoneColumn" text="Email"/>
+            <TableColumn fx:id="studentClassIdColumn" visible="false"/>
+            <TableColumn fx:id="studentClassNameColumn" text="Class"/>
+        </columns>
+    </TableView>
+</VBox>

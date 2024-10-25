@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<!-- Tạo giao diện Login, gọi đến LoginController -->
+<VBox spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="managemark.managemark.Controller.LoginController">
+<!-- Padding của form -->
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+<!-- Tạo label -->
+    <Label text="Email: "/>
+<!--  Tạo text field nhập email -->
+    <TextField fx:id="emailField" promptText="Email"/>
+<!--  Tạo label  -->
+    <Label text="Password: "/>
+<!--  Tạo Password field để nhập password  -->
+    <PasswordField fx:id="passwordField" promptText="Password"/>
+<!--  Tạo button Login  -->
+    <Button text="Login" onAction="#login"/>
+</VBox>

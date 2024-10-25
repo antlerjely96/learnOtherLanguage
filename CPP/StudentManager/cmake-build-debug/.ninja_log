@@ -1,0 +1,10 @@
+# ninja log v5
+5	1704	7326128126709523	CMakeFiles/StudentManager.dir/main.cpp.obj	d1c2d7a4975aca38
+1705	2358	7326128133179788	StudentManager.exe	6ae2819e36b93f1b
+8	395	7328819789688373	build.ninja	8be8a8d7a32088de
+7	2767	7328820087011262	CMakeFiles/StudentManager.dir/main.cpp.obj	d1c2d7a4975aca38
+4	900	7328820268892601	StudentManager.exe	6ae2819e36b93f1b
+4	1331	7328820511437188	CMakeFiles/StudentManager.dir/main.cpp.obj	d1c2d7a4975aca38
+1332	2099	7328820519037143	StudentManager.exe	6ae2819e36b93f1b
+4	1328	7328828806578787	CMakeFiles/StudentManager.dir/main.cpp.obj	d1c2d7a4975aca38
+1328	2013	7328828813354094	StudentManager.exe	6ae2819e36b93f1b

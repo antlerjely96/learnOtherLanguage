@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="managemark.managemark.Controller.MajorController">
+    <!-- Padding của form -->
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+    <Button text="Add major" onAction="#showDialogCreateMajor"/>
+    <TableView fx:id="majorTable">
+        <columns>
+            <TableColumn fx:id="majorIdColumn" text="ID"/>
+            <TableColumn fx:id="majorNameColumn" text="Name"/>
+        </columns>
+    </TableView>
+</VBox>

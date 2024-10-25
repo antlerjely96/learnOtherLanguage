@@ -1,0 +1,5 @@
+1,Student 1,2002,Nu,HP,D02K13,Lap trinh,K13,2021,2024,5.5,Trung binh
+2,Std 2,2002,Nam,HN,D01K12,Lap trinh,K13,2020,2023,6.5,Kha
+3,student 3,2002,Nu,HP,D02K13,Lap trinh,K13,2021,2024,4.5,Yeu
+4,std 4,2003,Nam,HP,N01K14,Quan tri mang,K14,2022,2025,6,Trung Binh
+5,bb,2000,nu,hn,d03,lt,2011,2000,2012,9,Gioi

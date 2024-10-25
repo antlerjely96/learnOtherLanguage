@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<VBox spacing="10.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0" top="20.0"/>
+    </padding>
+    <HBox>
+        <Label text="Student Name: "/>
+        <TextField fx:id="editStudentNameField" disable="true"/>
+    </HBox>
+    <HBox>
+        <Label text="Mark: "/>
+        <TextField fx:id="editStudentMarkField"/>
+    </HBox>
+    <Button fx:id="saveButton" text="Save"/>
+</VBox>

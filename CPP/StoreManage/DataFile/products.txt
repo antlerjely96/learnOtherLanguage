@@ -1,0 +1,3 @@
+1,p1,XS,Black,15.000000,10,1
+2,Product 2,M,Blue,20,10,1
+3,Product 3,L,Yellow,10,10,1

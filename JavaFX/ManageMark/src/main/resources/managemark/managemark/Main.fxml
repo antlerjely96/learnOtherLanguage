@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane xmlns:fx="http://javafx.com/fxml">
+    <Tab text="Majors Manage">
+        <StackPane>
+            <fx:include source="majors/major-list.fxml" />
+        </StackPane>
+    </Tab>
+    <Tab text="School years Manage">
+        <StackPane>
+            <fx:include source="school-year/school-year-list.fxml" />
+        </StackPane>
+    </Tab>
+    <Tab text="Subjects Manage">
+        <StackPane>
+            <fx:include source="subjects/subject-list.fxml"/>
+        </StackPane>
+    </Tab>
+    <Tab text="Classes Manage">
+        <StackPane>
+            <fx:include source="classes/class-list.fxml"/>
+        </StackPane>
+    </Tab>
+    <Tab text="Students Manage">
+        <StackPane>
+            <fx:include source="students/student-list.fxml" />
+        </StackPane>
+    </Tab>
+    <Tab text="Marks Manage">
+        <StackPane>
+            <fx:include source="marks/mark-list.fxml" />
+        </StackPane>
+    </Tab>
+</TabPane>

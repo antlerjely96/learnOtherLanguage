@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="managemark.managemark.Controller.ClassController">
+    <!-- Padding của form -->
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+    <Button text="Add class" onAction="#showDialogCreateClass"/>
+    <TableView fx:id="classTable">
+        <columns>
+            <TableColumn fx:id="classIdColumn" text="ID"/>
+            <TableColumn fx:id="classNameColumn" text="Name"/>
+            <TableColumn fx:id="majorIdColumn" visible="false"/>
+            <TableColumn fx:id="majorNameColumn" text="Major"/>
+            <TableColumn fx:id="schoolYearIdColumn" visible="false"/>
+            <TableColumn fx:id="schoolYearNameColumn" text="School year"/>
+            <TableColumn fx:id="schoolYearStartColumn" visible="false"/>
+            <TableColumn fx:id="schoolYearEndColumn" visible="false"/>
+        </columns>
+    </TableView>
+</VBox>

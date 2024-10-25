@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets left="20.0" right="20.0" bottom="20.0"/>
+    </padding>
+    <HBox>
+        <Label text="Class name: "/>
+        <TextField fx:id="addNameField"/>
+    </HBox>
+    <HBox>
+        <Label text="Major name: "/>
+        <ComboBox fx:id="addMajorField" promptText="Select a Major">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </HBox>
+    <HBox>
+        <Label text="Major name: "/>
+        <ComboBox fx:id="addSchoolYearField" promptText="Select a School year">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </HBox>
+
+    <Button fx:id="createButton" text="Save"/>
+</VBox>
